@@ -1,7 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+
 import App from "./component/app";
 import "../styles/index.css";
-import "../styles/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+document.addEventListener("DOMContentLoaded", function () {
+  ReactDOM.render(<App />, document.getElementById("root"));
+});

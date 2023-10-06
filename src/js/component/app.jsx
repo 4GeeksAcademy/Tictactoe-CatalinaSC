@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
-import PickWeaponScreen from './PickWeaponScreen';
-import GameBoard from './GameBoard';
-
-
+import React, { useState } from "react";
+import PickWeaponScreen from "./PickWeaponScreen";
+import GameBoard from "./GameBoard";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [player1, setPlayer1] = useState(null);
